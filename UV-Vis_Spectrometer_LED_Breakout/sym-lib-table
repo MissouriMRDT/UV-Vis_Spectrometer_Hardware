@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "UV-Vis_Symbol_Lib") (type "KiCad") (uri "${KIPRJMOD}/Symbol_Libraries/UV-Vis_Symbol_Lib.kicad_sym") (options "") (descr ""))
+)

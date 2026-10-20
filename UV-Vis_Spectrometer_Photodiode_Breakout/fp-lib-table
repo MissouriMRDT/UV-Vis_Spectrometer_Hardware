@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UV_Vis_Footprints") (type "KiCad") (uri "${KIPRJMOD}/Libraries/UV_Vis_Footprints.pretty") (options "") (descr ""))
+	(lib (name "UV_Vis_Library") (type "KiCad") (uri "${KIPRJMOD}/UV_Vis_Library.pretty") (options "") (descr ""))
+)

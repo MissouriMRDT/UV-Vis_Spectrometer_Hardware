@@ -2114,16 +2114,22 @@
 		(uuid "6ad026bc-5323-4857-a568-eedd5e482d05")
 	)
 	(junction
+		(at 135.89 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "727186bd-f255-44ce-af1a-19430be0e9c6")
+	)
+	(junction
 		(at 87.63 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a322efa7-662e-4615-b00a-b58c55420d54")
 	)
 	(junction
-		(at 135.89 76.2)
+		(at 151.13 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c403724d-ae5f-453b-b459-bd092ab0bdb1")
+		(uuid "ddf67c55-08d8-4a96-b7aa-97b51753b796")
 	)
 	(wire
 		(pts
@@ -2205,6 +2211,16 @@
 		)
 		(uuid "1161fb5e-aae3-4320-90a7-c26e6a56c829")
 	)
+	(wire
+		(pts
+			(xy 151.13 76.2) (xy 154.94 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1849e643-9591-44b5-9835-db5b7f197f77")
+	)
 	(polyline
 		(pts
 			(xy 62.23 62.23) (xy 62.23 63.5)
@@ -2237,7 +2253,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 76.2) (xy 142.24 76.2)
+			(xy 135.89 76.2) (xy 151.13 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2507,6 +2523,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 71.12) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e7dab8-a3dc-4b0c-9cf8-54bc2b320370")
+	)
+	(wire
+		(pts
 			(xy 102.87 54.61) (xy 102.87 62.23)
 		)
 		(stroke
@@ -2571,7 +2597,7 @@
 	)
 	(global_label "CS{slash}FB"
 		(shape output)
-		(at 142.24 76.2 0)
+		(at 154.94 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2581,7 +2607,7 @@
 		)
 		(uuid "955f5e8b-0040-462e-80a7-1f7fe05ca968")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3938 76.2 0)
+			(at 164.0938 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2667,6 +2693,84 @@
 			(project "UV-Vis_Spectrometer_LED_Breakout"
 				(path "/5c1f1d7c-1e3d-4eca-b2bd-28e8cad4d986"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 151.13 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "16479a24-6ce6-4740-817d-9ff66597dc6f")
+		(property "Reference" "TP2"
+			(at 153.67 66.5479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "I_{LED}"
+			(at 153.67 69.0879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 151.13 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c1c29a7-afe0-472d-90fb-e9e698e77bd2")
+		)
+		(instances
+			(project "UV-Vis_Spectrometer_LED_Breakout"
+				(path "/5c1f1d7c-1e3d-4eca-b2bd-28e8cad4d986"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

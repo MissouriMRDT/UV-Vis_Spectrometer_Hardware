@@ -9247,7 +9247,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 220.98 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10738,7 +10738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:Kodenshi_LG206D"
+		(property "Footprint" "PhotoDiode_BPW21R:BPW21R"
 			(at 107.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12262,7 +12262,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 208.28 143.51 0)
 			(hide yes)
 			(show_name no)

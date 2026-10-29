@@ -3825,6 +3825,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 143.51) (xy 129.54 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ed4238-d3a6-4df0-ab17-a11c4d4fdddb")
+	)
+	(wire
+		(pts
 			(xy 120.65 110.49) (xy 120.65 114.3)
 		)
 		(stroke
@@ -4805,16 +4815,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 143.51) (xy 129.54 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce5c029b-367d-4fb5-8de2-3232fb9ba115")
-	)
-	(wire
-		(pts
 			(xy 248.92 63.5) (xy 234.95 63.5)
 		)
 		(stroke
@@ -5172,6 +5172,16 @@
 			(type default)
 		)
 		(uuid "fec9e9a1-74da-4418-96ad-d582b9cd98ad")
+	)
+	(label "IN-"
+		(at 113.03 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b9bd9d7-81d4-4d1b-88bc-4cf598c983d3")
 	)
 	(global_label "RR3+"
 		(shape output)
@@ -6718,7 +6728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "https://www.digikey.com/en/products/detail/comchip-technology/CDSU101A/1121034"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 223.52 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6729,7 +6739,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/comchip-technology/CDSU101A/1121034"
 			(at 223.52 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10634,7 +10644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "https://www.digikey.com/en/products/detail/comchip-technology/CDSU101A/1121034"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10645,7 +10655,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/comchip-technology/CDSU101A/1121034"
 			(at 248.92 40.64 0)
 			(hide yes)
 			(show_name no)

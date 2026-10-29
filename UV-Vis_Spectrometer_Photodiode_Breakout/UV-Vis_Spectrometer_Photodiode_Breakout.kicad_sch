@@ -5173,6 +5173,16 @@
 		)
 		(uuid "fec9e9a1-74da-4418-96ad-d582b9cd98ad")
 	)
+	(label "SW1"
+		(at 121.92 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1307bd11-bbd0-40ac-8243-aa2331d7cc36")
+	)
 	(label "IN-"
 		(at 113.03 143.51 0)
 		(effects
@@ -5182,6 +5192,26 @@
 			(justify left bottom)
 		)
 		(uuid "2b9bd9d7-81d4-4d1b-88bc-4cf598c983d3")
+	)
+	(label "SW3"
+		(at 121.92 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "618710cb-ddde-4017-9621-22c3085fb840")
+	)
+	(label "SW2"
+		(at 121.92 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3b521cc-d3b0-4ac0-b7b5-bc4c383557ec")
 	)
 	(global_label "RR3+"
 		(shape output)

@@ -9991,7 +9991,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A"
+		(property "Footprint" "UV_Vis_Library:Relay_SPDT_9007_05_00"
 			(at 135.89 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10160,7 +10160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A"
+		(property "Footprint" "UV_Vis_Library:Relay_SPDT_9007_05_00"
 			(at 135.89 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11307,7 +11307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_SPST_StandexMeder_SIL_Form1A"
+		(property "Footprint" "UV_Vis_Library:Relay_SPDT_9007_05_00"
 			(at 135.89 104.14 0)
 			(hide yes)
 			(show_name no)

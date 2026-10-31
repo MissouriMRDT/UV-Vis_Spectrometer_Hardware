@@ -10758,7 +10758,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -10771,7 +10771,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1910 (mils)"
+		(gr_text "1910 mils"
 			(at 141.471 72.009 90)
 			(layer "Dwgs.User")
 			(uuid "8c392779-1739-4db1-baf0-ccc0c86f1d49")
@@ -10796,7 +10796,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -10809,7 +10809,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1890 (mils)"
+		(gr_text "1890 mils"
 			(at 103.251 106.292 0)
 			(layer "Dwgs.User")
 			(uuid "e02c2dbf-b3ff-4290-a42d-ca43e54eafb1")
@@ -10834,7 +10834,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -10847,7 +10847,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1610 (mils)"
+		(gr_text "1610 mils"
 			(at 103.378 99.307 0)
 			(layer "Dwgs.User")
 			(uuid "f1c40e50-e6b3-44e5-8440-a757144475c2")
@@ -10872,7 +10872,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -10885,7 +10885,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1640 (mils)"
+		(gr_text "1640 mils"
 			(at 134.867 72.009 90)
 			(layer "Dwgs.User")
 			(uuid "fba7d146-a5d1-43b3-80ae-e28560f6d974")

@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "UV_LED_Socket") (type "KiCad") (uri "${KIPRJMOD}/UV_LED_Socket.pretty") (options "") (descr ""))
+)

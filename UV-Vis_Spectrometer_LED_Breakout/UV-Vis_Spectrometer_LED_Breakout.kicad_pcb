@@ -1587,7 +1587,7 @@
 	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "886ef290-3f78-4ae1-9aab-8a5ee7159e41")
-		(at 166.497 103.632)
+		(at 168.91 103.505)
 		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
 		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV1"
@@ -4027,7 +4027,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -4040,7 +4040,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1120 (mils)"
+		(gr_text "1120 mils"
 			(at 123.041 99.06 90)
 			(layer "Dwgs.User")
 			(uuid "37d45b7c-d019-4fa0-8963-d804eb3a268d")
@@ -4065,7 +4065,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -4078,7 +4078,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1220 (mils)"
+		(gr_text "1220 mils"
 			(at 157.226 77.702 0)
 			(layer "Dwgs.User")
 			(uuid "7508c264-3267-4a93-ae6f-28b5a2122cdb")
@@ -4103,7 +4103,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -4116,7 +4116,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1500 (mils)"
+		(gr_text "1500 mils"
 			(at 157.226 72.876 0)
 			(layer "Dwgs.User")
 			(uuid "a5e24016-d74b-4a53-9ab8-950a524a2f20")
@@ -4141,7 +4141,7 @@
 			(prefix "")
 			(suffix "")
 			(units 1)
-			(units_format 2)
+			(units_format 1)
 			(precision 4)
 			(suppress_zeroes yes)
 		)
@@ -4154,7 +4154,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "840 (mils)"
+		(gr_text "840 mils"
 			(at 130.788 99.06 90)
 			(layer "Dwgs.User")
 			(uuid "c1dbb881-ed04-4565-b2d9-9e311a1effca")

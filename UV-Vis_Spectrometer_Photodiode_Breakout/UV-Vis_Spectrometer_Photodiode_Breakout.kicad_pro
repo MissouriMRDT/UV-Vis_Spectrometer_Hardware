@@ -211,7 +211,8 @@
       ],
       "track_widths": [
         0.0,
-        0.254
+        0.254,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -540,7 +541,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "UV-Vis_Spectrometer_Photodiode_Breakout.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -683,7 +684,7 @@
         "uuid": "90d4655d-8160-45fc-bca9-704a94a787c3"
       }
     ],
-    "used_designators": "U1-7,D1-5,#PWR1-32,RR1-4,R1-4,R8-17,J1-3,C1-12,SW1,Q4-6",
+    "used_designators": "U1-7,D1-8,#PWR1-32,RR1-4,R1-4,R8-17,J1-3,C1-12,SW1,Q4-6",
     "variants": []
   },
   "sheets": [

@@ -1784,6 +1784,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BAT43W-V"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT43W-V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BAT43W-V_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT43W-V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MRDT_Connectors:4_40_Mounting_Hole_Pad"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3491,7 +3657,7 @@
 		)
 		(uuid "b7336c4c-d56e-4ebb-b14a-c35fd68454f7")
 	)
-	(text "3V power"
+	(text "LED Connector"
 		(exclude_from_sim no)
 		(at 49.022 20.066 0)
 		(effects
@@ -3534,6 +3700,12 @@
 		(uuid "0ed4cc86-2ac6-4d8b-bdf3-79b3d1ed13ef")
 	)
 	(junction
+		(at 62.23 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f6929c0-4d16-4b05-9b2e-1c8784aed4a2")
+	)
+	(junction
 		(at 120.65 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3558,10 +3730,22 @@
 		(uuid "19718ecc-aba8-45a5-9651-363942c8d67f")
 	)
 	(junction
+		(at 62.23 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2000e9b5-8fde-47f8-854e-2aea4cade47c")
+	)
+	(junction
 		(at 234.95 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28f0b52c-4ce2-4bc5-b4cf-8bf3ce2627b4")
+	)
+	(junction
+		(at 62.23 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41327d59-3284-4436-bfcd-005da4057ac0")
 	)
 	(junction
 		(at 113.03 114.3)
@@ -3628,6 +3812,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78d7de76-6e62-4b60-915e-b8432002a96e")
+	)
+	(junction
+		(at 62.23 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "963ef3da-491b-4aa0-b930-77a5190bcb92")
 	)
 	(junction
 		(at 148.59 96.52)
@@ -3714,6 +3904,12 @@
 		(uuid "dce0dd74-cdae-4ffd-8bb6-bda50a45a4c9")
 	)
 	(junction
+		(at 62.23 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e222aa83-f80a-4be6-ba21-c25808d397a6")
+	)
+	(junction
 		(at 203.2 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3730,6 +3926,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fadfdba1-c099-4d1a-8ddd-d99cbad33299")
+	)
+	(junction
+		(at 62.23 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc9e3ae7-09cf-4061-8ad0-2e64f8d1a936")
 	)
 	(junction
 		(at 107.95 143.51)
@@ -3865,13 +4067,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 45.72) (xy 154.94 45.72)
+			(xy 151.13 38.1) (xy 154.94 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19e20895-31da-4663-b6d3-58a71f2168f6")
+		(uuid "1981c753-28a6-4f80-a84e-37b7a2721816")
 	)
 	(wire
 		(pts
@@ -3932,16 +4134,6 @@
 			(type default)
 		)
 		(uuid "2006b5b1-0398-46ea-9e4c-43cc000e94d6")
-	)
-	(wire
-		(pts
-			(xy 121.92 38.1) (xy 154.94 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "216b8e37-cee4-4ee2-be09-b7415dc2bce9")
 	)
 	(wire
 		(pts
@@ -4035,6 +4227,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 25.4) (xy 154.94 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3858ca20-a50f-4c15-9d06-93395264f85d")
+	)
+	(wire
+		(pts
 			(xy 184.15 119.38) (xy 190.5 119.38)
 		)
 		(stroke
@@ -4115,6 +4317,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 43.18) (xy 154.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46a6448d-062e-4fe1-8af3-1c18517910f7")
+	)
+	(wire
+		(pts
 			(xy 27.94 25.4) (xy 27.94 34.29)
 		)
 		(stroke
@@ -4122,6 +4334,16 @@
 			(type default)
 		)
 		(uuid "49f18bb9-e3e6-4479-a6d4-c2f203da2284")
+	)
+	(wire
+		(pts
+			(xy 147.32 52.07) (xy 152.4 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a355bc0-1074-4802-bb9e-703be7f7dc92")
 	)
 	(wire
 		(pts
@@ -4145,6 +4367,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 154.94) (xy 62.23 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "578d5d4d-da5b-46fe-b073-da189716102e")
+	)
+	(wire
+		(pts
+			(xy 152.4 52.07) (xy 152.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ad335c-b4a5-40f6-973e-7d262fd7cc6b")
+	)
+	(wire
+		(pts
 			(xy 113.03 92.71) (xy 113.03 96.52)
 		)
 		(stroke
@@ -4162,6 +4404,16 @@
 			(type default)
 		)
 		(uuid "597c9daa-5ec2-4641-91e3-a58c1831fed5")
+	)
+	(wire
+		(pts
+			(xy 58.42 120.65) (xy 62.23 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7daacc-557a-4743-bcf9-4c05227e9b50")
 	)
 	(wire
 		(pts
@@ -4235,6 +4487,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 73.66) (xy 62.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fc2b78-c72e-43a6-9c3a-b671b8d0e8bf")
+	)
+	(wire
+		(pts
 			(xy 62.23 66.04) (xy 64.77 66.04)
 		)
 		(stroke
@@ -4242,6 +4504,16 @@
 			(type default)
 		)
 		(uuid "685c7bc6-5865-49c6-95bb-c874b496be1f")
+	)
+	(wire
+		(pts
+			(xy 57.15 66.04) (xy 57.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b1775d4-a4be-4497-9e50-d2ebdbaa53a2")
 	)
 	(wire
 		(pts
@@ -4295,13 +4567,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 35.56) (xy 140.97 27.94)
+			(xy 62.23 110.49) (xy 62.23 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82f1eb3b-a6c3-49f2-9b2c-faf02afe45f4")
+		(uuid "830ab357-1228-4d4d-87f3-b8cb12f91ea2")
 	)
 	(wire
 		(pts
@@ -4322,16 +4594,6 @@
 			(type default)
 		)
 		(uuid "84b553e2-43ab-4b7c-84c2-701852ed9174")
-	)
-	(wire
-		(pts
-			(xy 121.92 50.8) (xy 121.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a3d4c0-7a28-44e0-bdfd-bea960a7aac4")
 	)
 	(wire
 		(pts
@@ -4402,6 +4664,26 @@
 			(type default)
 		)
 		(uuid "8f283a00-17a9-4aaf-9ce4-f862136b1129")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.1) (xy 62.23 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90705006-6195-44bc-9731-42fd7e1b6312")
+	)
+	(wire
+		(pts
+			(xy 62.23 120.65) (xy 62.23 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90a16c29-ed92-4e81-8461-cbbeca0fc02e")
 	)
 	(wire
 		(pts
@@ -4485,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 106.68) (xy 62.23 113.03)
+			(xy 62.23 106.68) (xy 62.23 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4545,13 +4827,23 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 121.92) (xy 62.23 119.38)
+			(xy 62.23 121.92) (xy 62.23 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5914c38-f030-4223-8381-1a7996c680c8")
+	)
+	(wire
+		(pts
+			(xy 58.42 113.03) (xy 58.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6597cab-0538-428d-ac78-030302521e4a")
 	)
 	(wire
 		(pts
@@ -4582,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "aa1f3ae1-27d2-4d03-b6de-e740a9f513b7")
+	)
+	(wire
+		(pts
+			(xy 62.23 63.5) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9d6d7e-485a-4f52-a3a6-6c61aea7be2a")
 	)
 	(wire
 		(pts
@@ -4665,7 +4967,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 153.67) (xy 62.23 158.75)
+			(xy 62.23 153.67) (xy 62.23 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4735,6 +5037,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 40.64) (xy 154.94 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ad3ff1-0374-4e06-89d2-45d051174250")
+	)
+	(wire
+		(pts
 			(xy 132.08 114.3) (xy 132.08 116.84)
 		)
 		(stroke
@@ -4785,13 +5097,23 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 43.18) (xy 154.94 43.18)
+			(xy 154.94 25.4) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cac0a2cf-eaaa-4f3b-a9f4-0ebc4a49060d")
+		(uuid "c84698ab-e368-404d-b3c0-064684e9f7fb")
+	)
+	(wire
+		(pts
+			(xy 58.42 110.49) (xy 62.23 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca416716-0d4c-467b-a7ee-31837ec18c54")
 	)
 	(wire
 		(pts
@@ -4825,6 +5147,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 154.94) (xy 62.23 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14bf086-3e84-4f22-97b8-139105d82e4c")
+	)
+	(wire
+		(pts
 			(xy 62.23 176.53) (xy 62.23 181.61)
 		)
 		(stroke
@@ -4832,16 +5164,6 @@
 			(type default)
 		)
 		(uuid "d15f9e17-4420-4433-97d5-1e9446a5fd50")
-	)
-	(wire
-		(pts
-			(xy 154.94 35.56) (xy 140.97 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a83fce-3500-4582-b87a-d75295c044bb")
 	)
 	(wire
 		(pts
@@ -4955,6 +5277,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 45.72) (xy 154.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e39f5c7c-b44b-485d-a58e-84f86ec9dc1b")
+	)
+	(wire
+		(pts
 			(xy 234.95 50.8) (xy 234.95 52.07)
 		)
 		(stroke
@@ -5025,6 +5357,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 63.5) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04ffca0-472a-485b-8f15-a15a8eb1b304")
+	)
+	(wire
+		(pts
 			(xy 41.91 171.45) (xy 44.45 171.45)
 		)
 		(stroke
@@ -5055,6 +5397,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 157.48) (xy 58.42 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fb3742-41a6-4392-825f-334e6787f87b")
+	)
+	(wire
+		(pts
 			(xy 148.59 114.3) (xy 148.59 146.05)
 		)
 		(stroke
@@ -5062,16 +5414,6 @@
 			(type default)
 		)
 		(uuid "f3c7d55f-dbac-42b2-89e6-57b92a30614e")
-	)
-	(wire
-		(pts
-			(xy 146.05 40.64) (xy 154.94 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3fc8003-a46c-4965-b1f2-125710d29c37")
 	)
 	(wire
 		(pts
@@ -5105,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 62.23 66.04)
+			(xy 62.23 60.96) (xy 62.23 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5383,7 +5725,7 @@
 	)
 	(global_label "REED_CONTROL3"
 		(shape output)
-		(at 146.05 45.72 180)
+		(at 151.13 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5393,7 +5735,7 @@
 		)
 		(uuid "4decc8b7-40b5-4302-a5e0-185e916cf438")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5225 45.72 0)
+			(at 132.6025 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5599,7 +5941,7 @@
 	)
 	(global_label "REED_CONTROL2"
 		(shape output)
-		(at 146.05 43.18 180)
+		(at 151.13 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5609,7 +5951,7 @@
 		)
 		(uuid "ae317c64-2d47-4d77-9bad-5012f87c04b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5225 43.18 0)
+			(at 132.6025 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5815,7 +6157,7 @@
 	)
 	(global_label "REED_CONTROL1"
 		(shape output)
-		(at 146.05 40.64 180)
+		(at 151.13 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5825,7 +6167,7 @@
 		)
 		(uuid "ea145d0a-8cf1-4f8a-875c-ac68d76c3220")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.5225 40.64 0)
+			(at 132.6025 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7323,6 +7665,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT43W-V")
+		(at 58.42 161.29 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f1166ff-77a4-49a8-aa39-68fd9d277fe1")
+		(property "Reference" "D6"
+			(at 55.88 159.7024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819HW-7-F"
+			(at 55.88 162.2424 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 62.865 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 58.42 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+			(at 58.42 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e9951b0-4a81-4eef-90dd-295644fd88f6")
+		)
+		(pin "2"
+			(uuid "086efbef-2f75-463d-9365-8aa570dfa97b")
+		)
+		(instances
+			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
+				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 44.45 133.35 180)
 		(unit 1)
@@ -7474,6 +7898,88 @@
 			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
 				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT43W-V")
+		(at 58.42 116.84 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36f3e6ff-7b7c-41ec-ab92-f066fcdc15ac")
+		(property "Reference" "D7"
+			(at 55.88 115.2524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819HW-7-F"
+			(at 55.88 117.7924 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 62.865 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 58.42 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+			(at 58.42 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d9be7d0b-38d0-4c6b-9b43-bb2f03fd45d3")
+		)
+		(pin "2"
+			(uuid "0665df1f-73ed-4f09-9f34-43eb748fc0db")
+		)
+		(instances
+			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
+				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7961,7 +8467,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 140.97 27.94 0)
+		(at 147.32 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7972,7 +8478,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f7f4a01-de3a-4df2-b3f2-48b44e28ea4f")
 		(property "Reference" "#PWR010"
-			(at 140.97 31.75 0)
+			(at 147.32 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7983,7 +8489,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 140.97 22.86 0)
+			(at 147.32 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7993,7 +8499,7 @@
 			)
 		)
 		(property "Footprint" "RF_Mini-Circuits:Mini-Circuits_CK605_LandPatternPL-012"
-			(at 140.97 27.94 0)
+			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8004,7 +8510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 27.94 0)
+			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8015,7 +8521,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 140.97 27.94 0)
+			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +9075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 83.82 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9503,6 +10009,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 147.32 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e21129a-e34e-4701-b3c5-b1470c49f8c9")
+		(property "Reference" "#PWR011"
+			(at 147.32 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17208cf8-213d-4f44-b97d-3d600431997c")
+		)
+		(instances
+			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
+				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:TLV172IDCK")
 		(at 134.62 146.05 0)
 		(mirror x)
@@ -9823,6 +10407,88 @@
 			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
 				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT43W-V")
+		(at 57.15 69.85 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a581b866-1949-4871-b121-bb3ed6086e12")
+		(property "Reference" "D8"
+			(at 54.61 68.2624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819HW-7-F"
+			(at 54.61 70.8024 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 61.595 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+			(at 57.15 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a30dc6a-a9c7-4fec-b34d-852987c59243")
+		)
+		(pin "2"
+			(uuid "4bec3f62-2c7b-4e98-94ae-98f9390b7bdf")
+		)
+		(instances
+			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
+				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -10939,7 +11605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 40.64 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -11867,84 +12533,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f063dcc1-4de6-4b8c-a2d7-c5492486d7ad")
-		(property "Reference" "#PWR011"
-			(at 121.92 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cdedad93-9757-47a9-b20d-3aa7f52cb516")
-		)
-		(instances
-			(project "UV-Vis_Spectrometer_Photodiode_Breakout"
-				(path "/90d4655d-8160-45fc-bca9-704a94a787c3"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 44.45 137.16 0)
 		(unit 1)
 		(body_style 1)
@@ -12055,7 +12643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_S5B-PH-K_1x05_P2.00mm_Horizontal"
 			(at 160.02 40.64 0)
 			(hide yes)
 			(show_name no)

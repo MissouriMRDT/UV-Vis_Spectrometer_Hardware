@@ -7,7 +7,7 @@
 		(at 0 -2.54 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "51df7da7-29d7-4bc2-aa3c-dbaebd0b53b4")
+		(uuid "6a5656b9-1c06-484b-945e-abf8dd80fa7d")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 5.08 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f117e04e-1057-4e73-b21b-2ebeb6715a83")
+		(uuid "78206af0-e6f1-4340-95a0-1aea98f56859")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ee16d54c-b8da-4e68-bed3-05566250440a")
+		(uuid "a574e20b-9a7d-47c5-9ba5-1c23feae8fbf")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e60b2976-e806-4d33-882b-697a2ffd3716")
+		(uuid "05eef061-d4b1-4d9f-a7e1-79750302ac44")
 		(effects
 			(font
 				(size 1 1)
@@ -59,7 +59,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2c2560b5-20a4-4c32-87e6-3a52dfc80647")
+		(uuid "82e44eb4-990b-4696-a640-134c2773f715")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0bbad113-c943-482a-8fc4-a0fd330178d7")
+		(uuid "a3a2e44f-4409-4806-9508-6f90bda9e432")
 	)
 	(pad "2" thru_hole circle
 		(at 2.54 0)
@@ -81,11 +81,11 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "551b3ec9-b371-4e0d-ac9b-b5b33dcac9e1")
+		(uuid "e9f183f1-4413-4eca-ac5f-ee8d42871061")
 	)
 	(zone
 		(layers "F.SilkS" "Dwgs.User")
-		(uuid "1cb4152f-9a75-45e5-abef-938a0374c10e")
+		(uuid "864d0a28-436c-4819-a695-8b908d859c85")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
@@ -118,4 +118,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/3D Models/TO99_BPW20RF_VIS.step"
+		(offset
+			(xyz 2.5 0 0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
 )

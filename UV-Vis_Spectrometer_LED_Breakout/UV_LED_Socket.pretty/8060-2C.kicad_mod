@@ -7,7 +7,7 @@
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8b186d29-c70c-44a5-87b6-e8d848e55186")
+		(uuid "562ca000-deee-4ab3-8e37-79730aa41baa")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "799a77fa-654b-4ffb-9036-d6e16305896d")
+		(uuid "71747ff2-03f2-4a2b-b1dd-77628c13da66")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93d04af6-bbba-43ca-b084-fca811659ac6")
+		(uuid "c03ebff7-3728-4873-93ba-15d3bc5a4c7e")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2fa313ea-0319-4d76-aa88-1bcd6be49364")
+		(uuid "77faf880-ae01-4f7d-be9c-8624fd608387")
 		(effects
 			(font
 				(size 1 1)
@@ -55,11 +55,22 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center 0 0)
+		(end 3.175 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f775f725-2d58-48e0-b246-b6dde8122ca7")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "0d797a88-502d-4985-968a-6c79395f6023")
+		(uuid "4b47073e-5d40-4996-a33b-8bf1fc2b4a46")
 		(effects
 			(font
 				(size 1 1)
@@ -68,54 +79,42 @@
 		)
 	)
 	(pad "1" thru_hole rect
-		(at -1.925 0)
-		(size 2.5 2.5)
+		(at -1.25 0)
+		(size 2 2.5)
 		(drill 1.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "560b8237-2bb6-4146-b953-393b66be9fa4")
+		(uuid "3d39b50a-b328-4edd-8f76-001e825a78cf")
 	)
-	(pad "2" thru_hole circle
-		(at 1.925 0)
-		(size 2.5 2.5)
+	(pad "2" thru_hole rect
+		(at 1.25 0)
+		(size 2 2.5)
 		(drill 1.55)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fd26bb29-5933-4b69-a8e7-3307af17084e")
-	)
-	(zone
-		(layer "F.SilkS")
-		(uuid "877d1705-9456-4b2f-a560-6f6c0cace22c")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints not_allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(arc
-					(start -6.35 0)
-					(mid 6.35 0)
-					(end -6.35 0)
-				)
-			)
-		)
+		(uuid "aee26b85-faee-4b73-a6af-0eff9f91a0fd")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/Models/8060-2C-Step.step"
+		(offset
+			(xyz 0 0 6.85)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/Models/LED590L-Step.step"
+		(offset
+			(xyz 0 0 8.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -90 -0)
+		)
+	)
 )

@@ -76,7 +76,40 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|152400018|106299012|fe305d38-a924-4df9-8d3b-8825bb7ded28|af18fa35-d18f-4582-a083-98501561ba2f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|155956017|85343955|3371df08-4a77-44ce-a857-17606e294ea3|dcdcbebe-3cbf-4f1b-9f2f-ea850839df6b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|175006020|106298995|b1a83998-5a0b-400a-80e6-e9064ec5f171|b8608175-93b6-467b-9ae7-3b7a29fc8238",
+          ""
+        ],
+        [
+          "copper_edge_clearance|175006028|88900029|b1a83998-5a0b-400a-80e6-e9064ec5f171|ca62dbe1-05cc-42b1-916f-96e87604f6ab",
+          ""
+        ],
+        [
+          "lib_footprint_issues|155956000|106299000|d8ee1dd4-4868-4126-af69-ad3cf4890624|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|155956000|88900000|e096b474-8cc4-443a-9563-32ed05b08e9c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|171450000|106299000|d873fc30-7362-48a5-b90e-cb24ce1b958e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|171450000|88900000|866712c9-5c92-4f17-a27d-29e284310ad8|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -664,7 +697,7 @@
         "uuid": "5c1f1d7c-1e3d-4eca-b2bd-28e8cad4d986"
       }
     ],
-    "used_designators": "TP2",
+    "used_designators": "TP2,J1,R1-5,#FLG1-2,SET1,#PWR1-11,C1-2,H1-4,I_{LED}1,Q1,RV1,SK1,U1",
     "variants": []
   },
   "sheets": [

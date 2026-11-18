@@ -8126,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819HW-7-F"
+		(property "Value" "SS2040FL_R1_00001"
 			(at 60.96 162.2424 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8148,7 +8148,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/lite-on-inc/LTST-C191TBKT/160-1647-1-ND/573587\\"
 			(at 63.5 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8159,7 +8159,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+		(property "Description" "40V, 2A schottky"
 			(at 63.5 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8365,7 +8365,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819HW-7-F"
+		(property "Value" "SS2040FL_R1_00001"
 			(at 60.96 117.7924 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8387,7 +8387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/lite-on-inc/LTST-C191TBKT/160-1647-1-ND/573587\\"
 			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +8398,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+		(property "Description" "40V, 2A schottky"
 			(at 63.5 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10774,7 +10774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5819HW-7-F"
+		(property "Value" "SS2040FL_R1_00001"
 			(at 59.69 70.8024 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10796,7 +10796,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N5819HW-7-F/814970"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/lite-on-inc/LTST-C191TBKT/160-1647-1-ND/573587\\"
 			(at 62.23 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10807,7 +10807,7 @@
 				)
 			)
 		)
-		(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+		(property "Description" "40V, 2A schottky"
 			(at 62.23 69.85 0)
 			(hide yes)
 			(show_name no)
